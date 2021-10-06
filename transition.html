@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 150px;
+            background-color: purple;
+        }
+        .box:hover{
+            background-color: red;
+        }
+        .box2{
+            width: 200px;
+            height: 150px;
+            background-color: purple;
+            transition: all 5s ease 2s;
+        }
+        .box2:hover{
+            background-color: red;
+            width: 500px;
+        }
+        .box3{
+            width: 200px;
+            height: 150px;
+            background-color: purple;
+            transition: all 5s ease 2s;
+        }
+        .box3:hover{
+            background-color: lawngreen;
+            height: 300px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Transition</h1>
+    </div>
+    <div class="box2">
+        <h1>Box2</h1>
+    </div>
+    <div class="box3">
+        <h1>box3</h1>
+    </div>
+    
+</body>
+</html>
